@@ -143,7 +143,7 @@ module.exports = styleTagTransform;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `/*! tailwindcss v4.1.16 | MIT License | https://tailwindcss.com */@layer properties;@layer theme, base, components, utilities;@layer theme{:root,:host{--font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-amber-300: oklch(87.9% 0.169 91.605);--color-black: #000;--spacing: 0.25rem;--text-4xl: 2.25rem;--text-4xl--line-height: calc(2.5 / 2.25);--font-weight-bold: 700;--default-font-family: var(--font-sans);--default-mono-font-family: var(--font-mono)}}@layer base{*,::after,::before,::backdrop,::file-selector-button{box-sizing:border-box;margin:0;padding:0;border:0 solid}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings, normal);font-variation-settings:var(--default-font-variation-settings, normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings, normal);font-variation-settings:var(--default-mono-font-variation-settings, normal);font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea,::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;border-radius:0;background-color:transparent;opacity:1}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::-moz-placeholder{opacity:1}::placeholder{opacity:1}@supports(not (-webkit-appearance: -apple-pay-button)) or (contain-intrinsic-size: 1px){::-moz-placeholder{color:currentcolor}@supports(color: color-mix(in lab, red, red)){::-moz-placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}::placeholder{color:currentcolor}@supports(color: color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]),::file-selector-button{-webkit-appearance:button;-moz-appearance:button;appearance:button}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none !important}}@layer utilities{.static{position:static}.container{width:100%}@media(width >= 40rem){.container{max-width:40rem}}@media(width >= 48rem){.container{max-width:48rem}}@media(width >= 64rem){.container{max-width:64rem}}@media(width >= 80rem){.container{max-width:80rem}}@media(width >= 96rem){.container{max-width:96rem}}.grid{display:grid}.bg-amber-300{background-color:var(--color-amber-300)}.p-8{padding:calc(var(--spacing)*8)}.text-4xl{font-size:var(--text-4xl);line-height:var(--tw-leading, var(--text-4xl--line-height))}.font-bold{--tw-font-weight: var(--font-weight-bold);font-weight:var(--font-weight-bold)}.text-black{color:var(--color-black)}}@property --tw-font-weight{syntax:"*";inherits:false}@layer properties{@supports((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))){*,::before,::after,::backdrop{--tw-font-weight: initial}}}`, ""]);
+___CSS_LOADER_EXPORT___.push([module.id, `/*! tailwindcss v4.1.16 | MIT License | https://tailwindcss.com */@layer properties;@layer theme, base, components, utilities;@layer theme{:root,:host{--font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-amber-300: oklch(87.9% 0.169 91.605);--color-black: #000;--spacing: 0.25rem;--text-4xl: 2.25rem;--text-4xl--line-height: calc(2.5 / 2.25);--font-weight-bold: 700;--default-font-family: var(--font-sans);--default-mono-font-family: var(--font-mono)}}@layer base{*,::after,::before,::backdrop,::file-selector-button{box-sizing:border-box;margin:0;padding:0;border:0 solid}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4;font-family:var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings, normal);font-variation-settings:var(--default-font-variation-settings, normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings, normal);font-variation-settings:var(--default-mono-font-variation-settings, normal);font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea,::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;border-radius:0;background-color:transparent;opacity:1}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports(not (-webkit-appearance: -apple-pay-button)) or (contain-intrinsic-size: 1px){::placeholder{color:currentcolor}@supports(color: color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]),::file-selector-button{appearance:button}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none !important}}@layer utilities{.static{position:static}.container{width:100%}@media(width >= 40rem){.container{max-width:40rem}}@media(width >= 48rem){.container{max-width:48rem}}@media(width >= 64rem){.container{max-width:64rem}}@media(width >= 80rem){.container{max-width:80rem}}@media(width >= 96rem){.container{max-width:96rem}}.grid{display:grid}.bg-amber-300{background-color:var(--color-amber-300)}.p-8{padding:calc(var(--spacing)*8)}.text-4xl{font-size:var(--text-4xl);line-height:var(--tw-leading, var(--text-4xl--line-height))}.font-bold{--tw-font-weight: var(--font-weight-bold);font-weight:var(--font-weight-bold)}.text-black{color:var(--color-black)}}@property --tw-font-weight{syntax:"*";inherits:false}@layer properties{@supports((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))){*,::before,::after,::backdrop{--tw-font-weight: initial}}}`, ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -647,35 +647,116 @@ var style_update = injectStylesIntoStyleTag_default()(style/* default */.A, styl
 
 
 
+const data = []
+
 const transactionForm = document.getElementById("transaction-form");
 
-transactionForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-    const expenseType = document.querySelector('input[name="expense-type"]:checked');
-    const expenseTypeValue = expenseType.value;
-    const categorySelect = document.querySelector("select[name='category']");
-    const date = document.getElementById("date");
-    const dateValue = date.valueAsDate;
-    const description = document.getElementById("description");
-    const amount = document.getElementById("amount");
-    const amountValue = amount.value;
-    const categorySelectedValue = categorySelect.value;
+// CURRENT BALANCE
+let currentBalance = 0;
+const currentBalanceElement = document.getElementById("current-balance");
+currentBalanceElement.textContent = currentBalance;
+const descriptionElement = document.getElementById("description");
 
-    if(categorySelect.selectedIndex){
-        console.log(categorySelectedValue);
-    }
-    else{
-        console.log("no category")
-    }
+// DATE PICKER ELEMENT
+const dateElement = document.getElementById("date");
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2, "0");
+const day = String(today.getDate()).padStart(2, "0");
 
-    if (expenseType) {
-        console.log(expenseTypeValue);
-    } else {
-        console.log("No type selected!");
-    }
+dateElement.setAttribute("max", `${year}-${month}-${day}`);
+dateElement.setAttribute("min", `${year - 1}-${month}-${day}`);
+
+// OPTIONS CHANGE AS PER RADIO CHECKED
+const expenseCategories = {
+  income: ["Salary", "Freelance", "Other"],
+  expense: ["Food", "Entertainment", "Mobile Recharge", "Travel Expense"],
+};
+
+const expenseTypeRadios = document.querySelectorAll(
+  'input[name="expense-type"]'
+);
+
+const categorySelect = document.querySelector("select[name='category']");
+
+function  updateCategoryOptions(type) {
+  categorySelect.innerHTML = '<option value="">Select Category</option>';
+  expenseCategories[type].forEach((option) => {
+    const newOption = document.createElement("option");
+    newOption.value = option;
+    newOption.textContent = option;
+    categorySelect.appendChild(newOption);
+  });
+}
+
+expenseTypeRadios.forEach((radio) => {
+  radio.addEventListener("change", function (e) {
+    const selectedCategory = e.target.value;
+    updateCategoryOptions(selectedCategory);
+  });
 });
 
+transactionForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const selectedCategoryValue = categorySelect.selectedOptions[0].value;
+  const amountValue = amount.value;
+  const descriptionValue = descriptionElement.value;
+  const dateValue = dateElement.value;
+  const radioExpenseElement = document.querySelector('input[name="expense-type"]:checked');
+  const radioExpenseValue = radioExpenseElement.value
+  // console.log(selected.value)
 
+  if (
+    amountValue &&
+    validateDate() &&
+    validateExpenseCategories(selectedCategoryValue)
+  ) {
+    // currentBalance += Number(amountValue);
+    // currentBalanceElement.textContent = currentBalance;
+    
+    const dataObject = {
+      expenseType : radioExpenseValue,
+      category : selectedCategoryValue,
+      dateOfTransaction : dateValue,
+      descriptionOfTransaction : descriptionValue,
+      amount : amountValue
+    };
 
+    data.push(dataObject);
+    updateBalance(radioExpenseValue,Number(amountValue));
+  }
+});
+
+function validateDate() {
+  if (!dateElement.value) {
+    const dateError = document.createElement("p");
+    // dateElement.textContent = " ";
+    // dateError.textContent = "Enter Date";
+    // dateElement.after(dateError);
+    document.body.style.border = "10px solid red";
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validateExpenseCategories(value) {
+  if (value === "") {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function updateBalance(type,amount){
+  if(type === "income"){
+    currentBalance += amount;
+    currentBalanceElement.textContent = currentBalance;
+  }
+  else{
+    currentBalance -= amount;
+    currentBalanceElement.textContent = currentBalance;
+  }
+}
 /******/ })()
 ;
