@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?py6mag');
-  src:  url('../fonts/icomoon.eot?py6mag#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?py6mag') format('truetype'),
-    url('../fonts/icomoon.woff?py6mag') format('woff'),
-    url('../fonts/icomoon.svg?py6mag#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?t0ytf0');
+  src:  url('../fonts/icomoon.eot?t0ytf0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?t0ytf0') format('truetype'),
+    url('../fonts/icomoon.woff?t0ytf0') format('woff'),
+    url('../fonts/icomoon.svg?t0ytf0#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -66,20 +66,9 @@
   content: "\e905";
   color: #aaa;
 }
-.icon-arrow .path1:before {
+.icon-arrow:before {
   content: "\e900";
-  color: rgb(255, 255, 255);
-  opacity: 0.15;
-}
-.icon-arrow .path2:before {
-  content: "\e901";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-arrow .path3:before {
-  content: "\e902";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 .icon-floppy-disk:before {
   content: "\e962";

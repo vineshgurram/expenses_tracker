@@ -14,11 +14,66 @@
   <body>
     <div id="app">
       <div class="wrapper">
-        <div class="top-box-wrapper">
-          <p class="bs-para typ-14 typ-white typ-300 mb-1">Good afternoon,</p>
-          <h1 class="bs-para typ-20 typ-white typ-600 mb-0">
-            Enjelin Morgeana
-          </h1>
+        <div class="intro-wrapper" id="intro-wrapper">
+          <div class="intro-image-wrapper">
+            <img
+              src="<%= require('./assets/images/intro.svg') %>"
+              alt="intro" />
+          </div>
+          <div class="intro-bottom-wrapper">
+            <div id="intro-get-started">
+              <h2
+                class="text-center bs-heading typ-20 typ-700 mt-2 mb-4 typ-green">
+                Spend Smarter<br />Save More
+              </h2>
+              <button class="bs-btn" id="get-started-button">
+                Get Started
+              </button>
+            </div>
+            <form id="intro-form-wrapper" class="intro-form-wrapper">
+              <div class="input-box">
+                <div class="input-box mb-4">
+                  <input
+                    type="text"
+                    id="full-name"
+                    placeholder="ENTER YOUR NAME"
+                    class="d-block form-control bs-para typ-16" />
+                </div>
+                <div class="input-box mb-4">
+                  <input
+                    type="submit"
+                    value="Confirm"
+                    class="bs-btn typ-outline" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="top-box-wrapper" id="top-box-wrapper">
+          <div id="greetings-wrapper">
+            <p
+              class="bs-para typ-14 typ-white typ-300 mb-1"
+              id="greeting-message">
+              Good afternoon,
+            </p>
+            <h1
+              class="bs-para typ-20 typ-white typ-600 mb-0 text-capitalize user-name">
+              User name
+            </h1>
+          </div>
+          <div class="bs-breadcrumb" id="breadcrumb-wrapper">
+            <div class="d-flex justify-content-between align-items-center pb-5">
+              <div id="back-button">
+                <span class="icon icon-arrow"></span>
+              </div>
+              <p
+                class="bs-para typ-18 typ-white typ-600 mb-0"
+                id="breadcrumb-title">
+                Add Expense
+              </p>
+              <span class="p-4">&nbsp;</span>
+            </div>
+          </div>
         </div>
         <div class="home-wrapper" id="home-wrapper">
           <div class="middle-box-wrapper">
@@ -108,6 +163,7 @@
                   >INCOME</label
                 >
                 <input
+                  checked
                   class="form-check-input"
                   type="radio"
                   name="expense-type"
@@ -121,7 +177,6 @@
                   >EXPENSE</label
                 >
                 <input
-                  checked
                   class="form-check-input"
                   type="radio"
                   name="expense-type"
@@ -132,10 +187,9 @@
             <div class="input-box mb-4">
               <select name="category" id="category" class="form-select">
                 <option value="">Select Category</option>
-                <option value="food">Food</option>
-                <option value="entertainment">Entertainment</option>
-                <option value="mobile-recharge">Mobile Recharge</option>
-                <option value="travel-expense">Travel Expense</option>
+                <option value="salary">Salary</option>
+                <option value="freelance">Freelance</option>
+                <option value="other">Other</option>
               </select>
             </div>
             <div class="input-box mb-4">
@@ -174,14 +228,19 @@
         </div>
         <div class="profile-wrapper" id="profile-wrapper">
           <div class="user-wrapper text-center">
-            <div class="user-avatar">E</div>
-            <h2 class="bs-para typ-20 typ-700 mb-3">Enjelin Morgeana</h2>
-            <p class="bs-para typ-16 typ-500 typ-green">@enjelin_morgeana</p>
+            <div class="user-avatar" id="user-avatar">U</div>
+            <h2 class="bs-para typ-20 typ-700 mb-3 text-capitalize user-name">
+              User Name
+            </h2>
+            <p class="bs-para typ-16 typ-500 typ-green" id="user-name-id">
+              @user_name
+            </p>
           </div>
         </div>
       </div>
       <header
-        class="sticky-nav d-flex align-items-center justify-content-between px-4">
+        class="sticky-nav align-items-center justify-content-between px-4"
+        id="header">
         <div class="left-box" id="home-button">
           <span class="icon icon-home"></span>
         </div>
@@ -208,7 +267,7 @@
             data-bs-dismiss="toast"
             aria-label="Close"></button>
         </div>
-        <div class="toast-body" id="toastMessage">
+        <div class="toast-body bs-para typ-14 typ-white" id="toastMessage">
           Hello, world! This is a toast message.
         </div>
       </div>
