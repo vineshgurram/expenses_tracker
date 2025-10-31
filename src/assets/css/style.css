@@ -215,9 +215,11 @@ header,
 
 .bs-btn {
   background: #69aea9;
-  background: linear-gradient(90deg,
-      rgba(105, 174, 169, 1) 0%,
-      rgba(63, 135, 130, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(105, 174, 169, 1) 0%,
+    rgba(63, 135, 130, 1) 100%
+  );
   font-size: 16px;
   /* line-height: 1; */
   padding: 12px;
@@ -235,6 +237,17 @@ header,
   width: 100%;
   color: var(--green3);
   border: 1px solid var(--green3);
+  border-radius: 40px;
+  background: #fff;
+}
+
+.bs-btn.typ-danger {
+  font-size: 16px;
+  padding: 14px 24px;
+  display: block;
+  width: 100%;
+  color: var(--red);
+  border: 1px solid var(--red);
   border-radius: 40px;
   background: #fff;
 }

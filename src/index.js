@@ -43,6 +43,7 @@ const addNewTransaction = document.getElementById("add-new-button");
 const homeButton = document.getElementById("home-button");
 const userButton = document.getElementById("user-button");
 const backButton = document.getElementById("back-button");
+const deleteButton = document.getElementById("delete-button");
 const getStartedButton = document.getElementById("get-started-button");
 
 // UPDATE DOM AS PER STATE
@@ -101,6 +102,12 @@ function validateDate() {
   } else {
     return true;
   }
+}
+
+function validateAmount(value){
+if(!value){
+  showToast("Please enter amount");
+}
 }
 
 function validateExpenseCategories(value) {
@@ -195,7 +202,7 @@ transactionForm.addEventListener("submit", function (e) {
   const date = new Date(dateValue);
   console.log(date.getDate(), date.getFullYear(),months[date.getMonth()]);
   if (
-    Number(amountValue) &&
+    validateAmount(amountValue) &&
     validateDate() &&
     validateExpenseCategories(selectedCategoryValue)
   ) {
@@ -229,6 +236,8 @@ introForm.addEventListener("submit", function (e) {
     introWrapper.remove();
     showHomeScreen();
     updateUsername(userName);
+  }else{
+    showToast("Please enter name");
   }
 });
 
@@ -301,9 +310,14 @@ function showIntroScreen() {
   introWrapper.style.display = "block";
 }
 
-// document.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-// });
+function deleteAccount(){
+  localStorage.clear();
+  window.location.reload();
+}
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
 
 // showScreen();
 
@@ -315,6 +329,8 @@ homeButton.addEventListener("click", showHomeScreen);
 backButton.addEventListener("click", showHomeScreen);
 
 addNewTransaction.addEventListener("click", showNewTransactionScreen);
+
+deleteButton.addEventListener("click",deleteAccount);
 
 // ONLOAD LOGICS
 window.addEventListener("DOMContentLoaded", () => {
