@@ -7778,7 +7778,7 @@ function validateAmount(amount) {
   return true;
 }
 
-;// ./src/index.js
+;// ./src/main.js
 
 
 
@@ -7816,6 +7816,7 @@ transactionForm.addEventListener("submit", function (e) {
   const date = new Date(dateValue);
   const amountCheck = validateAmount(amountValue);
   if (
+    
     validateAmount(amountValue) &&
     validateDate() &&
     validateExpenseCategories(selectedCategoryValue)
@@ -7856,9 +7857,9 @@ introForm.addEventListener("submit", function (e) {
   }
 });
 
-// document.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-// });
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
 
 // SWITCHES WITH PAGES
 userButton.addEventListener("click", showProfileScreen);
