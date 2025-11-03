@@ -7505,12 +7505,6 @@ function validateDate() {
   }
 }
 
-function validateAmount(value){
-if(!value){
-  showToast("Please enter amount");
-}
-}
-
 function validateExpenseCategories(value) {
   if (value === "") {
     showToast("Please select a category");
@@ -7603,7 +7597,7 @@ transactionForm.addEventListener("submit", function (e) {
   const date = new Date(dateValue);
   console.log(date.getDate(), date.getFullYear(),months[date.getMonth()]);
   if (
-    validateAmount(amountValue) &&
+    Number(amountValue) &&
     validateDate() &&
     validateExpenseCategories(selectedCategoryValue)
   ) {
