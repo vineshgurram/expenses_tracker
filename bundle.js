@@ -271,19 +271,22 @@ module.exports = function (cssWithMappingToString) {
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(314);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(417);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_fonts_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(439);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(417);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__);
 // Imports
+
 
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(212), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(894), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_fonts_css__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `*{padding:0;margin:0;box-sizing:border-box}:root{--black: #000;--white: #fff;--white1: #d0e5e4;--green: #1b5c58;--green1: #25a969;--green2: #438883;--green3: #549994;--grey: #404040;--red: #f95b51}body{font-family:"Inter",sans-serif;background-color:var(--black);padding:10px;height:100vh;letter-spacing:.2px}.bs-heading{font-size:30px}.bs-heading.typ-white,.bs-para.typ-white{color:var(--white)}.bs-heading.typ-grey,.bs-para.typ-grey{color:var(--grey)}.bs-heading.typ-green,.bs-para.typ-green{color:var(--green)}.bs-heading.typ-white1,.bs-para.typ-white1{color:var(--white1)}.bs-heading.typ-300,.bs-para.typ-300{font-weight:300}.bs-heading.typ-400,.bs-para.typ-400{font-weight:400}.bs-heading.typ-500,.bs-para.typ-500{font-weight:500}.bs-heading.typ-600,.bs-para.typ-600{font-weight:600}.bs-heading.typ-700,.bs-para.typ-700{font-weight:700}.bs-para.typ-20{font-size:20px}.bs-para.typ-18{font-size:18px}.bs-para.typ-16{font-size:16px}.bs-para.typ-14{font-size:14px}.bs-para.typ-12{font-size:12px}header,.top-box-wrapper,.home-wrapper{display:none}#app{position:relative;max-width:400px;margin:0 auto;background-color:var(--white);height:calc(100vh - 20px);overflow:hidden}#app .wrapper{overflow:auto;-ms-overflow-style:none;height:calc(100vh - 20px)}#app .wrapper::-webkit-scrollbar{width:0 !important;display:none}.balance-wrapper{padding:20px 25px;border-radius:20px;background-color:var(--green);box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px}.top-box-wrapper{padding:50px 20px;height:290px;background-image:url(${___CSS_LOADER_URL_REPLACEMENT_0___});background-position:center bottom;background-size:cover;margin-bottom:-150px}.middle-box-wrapper .balance-wrapper .icon{font-size:20px;display:inline-block;vertical-align:top}.middle-box-wrapper{padding:0 20px}.bottom-box-wrapper{padding:40px 20px}.income{color:var(--green1)}.expense{color:var(--red)}.sticky-nav{position:absolute;bottom:0;left:0;right:0;height:60px;background-color:var(--white);box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px}.sticky-nav .left-box,.sticky-nav .right-box{padding:5px 20px;font-size:30px;cursor:pointer}.middle-box{background-color:#438883;padding:20px;position:absolute;bottom:0;left:50%;transform:translate(-50%, -30%);border-radius:100%;width:75px;height:75px;display:flex;align-items:center;justify-content:center;box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px}.form-wrapper{padding:0 20px;padding-bottom:100px;display:none}.profile-wrapper{display:none}.form-wrapper .transaction-form{border-radius:20px;padding:40px 20px;background-color:var(--white);box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px}.form-control:focus{box-shadow:0 0 0 .25rem rgba(104, 174, 0, 0.135)}.bs-btn{background:#69aea9;background:linear-gradient(90deg, rgba(105, 174, 169, 1) 0%, rgba(63, 135, 130, 1) 100%);font-size:16px;padding:12px;display:block;width:100%;color:var(--white);border:none;border-radius:40px}.bs-btn.typ-outline{font-size:16px;padding:14px 24px;display:block;width:100%;color:var(--green3);border:1px solid var(--green3);border-radius:40px;background:#fff}.bs-btn.typ-danger{font-size:16px;padding:14px 24px;display:block;width:100%;color:var(--red);border:1px solid var(--red);border-radius:40px;background:#fff}.profile-wrapper{padding:40px 20px}.user-wrapper{border-radius:20px;padding:40px 20px;background-color:var(--white);box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px}.profile-wrapper .user-avatar{font-size:40px;line-height:1;font-weight:700;color:var(--green);background:#d0e5e4;display:inline-block;padding:20px 30px;border-radius:100%;width:90px;height:90px;display:flex;align-items:center;justify-content:center;margin:0 auto;margin-bottom:20px}.bs-breadcrumb,.intro-form-wrapper{display:none}#back-button{padding:10px 15px;font-size:12px}.intro-wrapper{background-image:url(${___CSS_LOADER_URL_REPLACEMENT_1___});background-position:top;background-repeat:no-repeat;background-size:100%;padding:70px 20px;display:none}.intro-image-wrapper{padding-bottom:50px}.intro-image-wrapper img{max-width:100%;display:block;max-width:250px;margin:0 auto}#intro-form-wrapper .form-control{padding:20px 15px;border-radius:8px;border:1px solid #ddd;font-size:13px}`, ""]);
+___CSS_LOADER_EXPORT___.push([module.id, `*{padding:0;margin:0;box-sizing:border-box}:root{--black: #000;--white: #fff;--white1: #d0e5e4;--green: #1b5c58;--green1: #25a969;--green2: #438883;--green3: #549994;--grey: #404040;--red: #f95b51}body{font-family:"Inter",sans-serif;background-color:var(--black);padding:10px;height:100vh;letter-spacing:.2px}.bs-heading{font-size:30px}.bs-heading.typ-white,.bs-para.typ-white{color:var(--white)}.bs-heading.typ-grey,.bs-para.typ-grey{color:var(--grey)}.bs-heading.typ-green,.bs-para.typ-green{color:var(--green)}.bs-heading.typ-white1,.bs-para.typ-white1{color:var(--white1)}.bs-heading.typ-300,.bs-para.typ-300{font-weight:300}.bs-heading.typ-400,.bs-para.typ-400{font-weight:400}.bs-heading.typ-500,.bs-para.typ-500{font-weight:500}.bs-heading.typ-600,.bs-para.typ-600{font-weight:600}.bs-heading.typ-700,.bs-para.typ-700{font-weight:700}.bs-para.typ-20{font-size:20px}.bs-para.typ-18{font-size:18px}.bs-para.typ-16{font-size:16px}.bs-para.typ-14{font-size:14px}.bs-para.typ-12{font-size:12px}header,.top-box-wrapper,.home-wrapper{display:none}#app{position:relative;max-width:400px;margin:0 auto;background-color:var(--white);height:calc(100vh - 20px);overflow:hidden}#app .wrapper{overflow:auto;-ms-overflow-style:none;height:calc(100vh - 20px)}#app .wrapper::-webkit-scrollbar{width:0 !important;display:none}.balance-wrapper{padding:20px 25px;border-radius:20px;background-color:var(--green);box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px}.top-box-wrapper{padding:50px 20px;height:290px;background-image:url(${___CSS_LOADER_URL_REPLACEMENT_0___});background-position:center bottom;background-size:cover;margin-bottom:-150px}.middle-box-wrapper .balance-wrapper .icon{font-size:20px;display:inline-block;vertical-align:top}.middle-box-wrapper{padding:0 20px}.bottom-box-wrapper{padding:40px 20px 80px}.income{color:var(--green1)}.expense{color:var(--red)}.sticky-nav{position:absolute;bottom:0;left:0;right:0;height:60px;background-color:var(--white);box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px}.sticky-nav .left-box,.sticky-nav .right-box{padding:5px 20px;font-size:30px;cursor:pointer}.middle-box{background-color:#438883;padding:20px;position:absolute;bottom:0;left:50%;transform:translate(-50%, -30%);border-radius:100%;width:75px;height:75px;display:flex;align-items:center;justify-content:center;box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px}.form-wrapper{padding:0 20px;padding-bottom:100px;display:none}.profile-wrapper{display:none}.form-wrapper .transaction-form{border-radius:20px;padding:40px 20px;background-color:var(--white);box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px}.form-control:focus{box-shadow:0 0 0 .25rem rgba(104, 174, 0, 0.135)}.bs-btn{background:#69aea9;background:linear-gradient(90deg, rgba(105, 174, 169, 1) 0%, rgba(63, 135, 130, 1) 100%);font-size:16px;padding:12px;display:block;width:100%;color:var(--white);border:none;border-radius:40px}.bs-btn.typ-outline{font-size:16px;padding:14px 24px;display:block;width:100%;color:var(--green3);border:1px solid var(--green3);border-radius:40px;background:#fff}.bs-btn.typ-danger{font-size:16px;padding:14px 24px;display:block;width:100%;color:var(--red);border:1px solid var(--red);border-radius:40px;background:#fff}.profile-wrapper{padding:40px 20px}.user-wrapper{border-radius:20px;padding:40px 20px;background-color:var(--white);box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px}.profile-wrapper .user-avatar{font-size:40px;line-height:1;font-weight:700;color:var(--green);background:#d0e5e4;display:inline-block;padding:20px 30px;border-radius:100%;width:90px;height:90px;display:flex;align-items:center;justify-content:center;margin:0 auto;margin-bottom:20px}.bs-breadcrumb,.intro-form-wrapper{display:none}#back-button{padding:10px 15px;font-size:12px}.intro-wrapper{background-image:url(${___CSS_LOADER_URL_REPLACEMENT_1___});background-position:top;background-repeat:no-repeat;background-size:100%;padding:70px 20px;display:none}.intro-image-wrapper{padding-bottom:50px}.intro-image-wrapper img{max-width:100%;display:block;max-width:250px;margin:0 auto}#intro-form-wrapper .form-control{padding:20px 15px;border-radius:8px;border:1px solid #ddd;font-size:13px}`, ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -361,6 +364,115 @@ module.exports = function (url, options) {
 /***/ ((module) => {
 
 module.exports = "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m6 10 3 3 6-6%27/%3e%3c/svg%3e";
+
+/***/ }),
+
+/***/ 439:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(601);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(314);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(417);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+// Imports
+
+
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(832), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(393), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(547), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(857), __webpack_require__.b);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___, { hash: "#iefix" });
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___, { hash: "#icomoon" });
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `@font-face {
+  font-family: 'icomoon';
+  src:  url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+  src:  url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format('embedded-opentype'),
+    url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format('truetype'),
+    url(${___CSS_LOADER_URL_REPLACEMENT_3___}) format('woff'),
+    url(${___CSS_LOADER_URL_REPLACEMENT_4___}) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-up-arrow .path1:before {
+  content: "\\e906";
+  color: rgb(255, 255, 255);
+  opacity: 0.15;
+}
+.icon-up-arrow .path2:before {
+  content: "\\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-up-arrow .path3:before {
+  content: "\\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-down-arrow .path1:before {
+  content: "\\e909";
+  color: rgb(255, 255, 255);
+  opacity: 0.15;
+}
+.icon-down-arrow .path2:before {
+  content: "\\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-down-arrow .path3:before {
+  content: "\\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-home:before {
+  content: "\\e903";
+}
+.icon-plus:before {
+  content: "\\e904";
+  color: #fff;
+}
+.icon-user:before {
+  content: "\\e905";
+  color: #aaa;
+}
+.icon-arrow:before {
+  content: "\\e900";
+  color: #fff;
+}
+.icon-floppy-disk:before {
+  content: "\\e962";
+}
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
 
 /***/ }),
 
@@ -544,40 +656,6 @@ module.exports = "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%
 /***/ ((module) => {
 
 module.exports = "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27rgba%28255, 255, 255, 0.25%29%27/%3e%3c/svg%3e";
-
-/***/ }),
-
-/***/ 744:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(601);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(314);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(417);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
-// Imports
-
-
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(832), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(393), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(547), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(857), __webpack_require__.b);
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___, { hash: "#iefix" });
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___, { hash: "#icomoon" });
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, `@font-face{font-family:"icomoon";src:url(${___CSS_LOADER_URL_REPLACEMENT_0___});src:url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format("embedded-opentype"),url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format("truetype"),url(${___CSS_LOADER_URL_REPLACEMENT_3___}) format("woff"),url(${___CSS_LOADER_URL_REPLACEMENT_4___}) format("svg");font-weight:normal;font-style:normal;font-display:block}[class^=icon-],[class*=" icon-"]{font-family:"icomoon" !important;speak:never;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-up-arrow .path1:before{content:"";color:rgb(255, 255, 255);opacity:.15}.icon-up-arrow .path2:before{content:"";margin-left:-1em;color:rgb(255, 255, 255)}.icon-up-arrow .path3:before{content:"";margin-left:-1em;color:rgb(255, 255, 255)}.icon-down-arrow .path1:before{content:"";color:rgb(255, 255, 255);opacity:.15}.icon-down-arrow .path2:before{content:"";margin-left:-1em;color:rgb(255, 255, 255)}.icon-down-arrow .path3:before{content:"";margin-left:-1em;color:rgb(255, 255, 255)}.icon-home:before{content:""}.icon-plus:before{content:"";color:#fff}.icon-user:before{content:"";color:#aaa}.icon-arrow:before{content:"";color:#fff}.icon-floppy-disk:before{content:""}`, ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
 
 /***/ }),
 
@@ -889,6 +967,66 @@ var update = injectStylesIntoStyleTag_default()(bootstrap_min/* default */.A, op
 
 
        /* harmony default export */ const css_bootstrap_min = (bootstrap_min/* default */.A && bootstrap_min/* default */.A.locals ? bootstrap_min/* default */.A.locals : undefined);
+
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/css/style.css
+var style = __webpack_require__(325);
+;// ./src/assets/css/style.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var style_options = {};
+
+style_options.styleTagTransform = (styleTagTransform_default());
+style_options.setAttributes = (setAttributesWithoutAttributes_default());
+style_options.insert = insertBySelector_default().bind(null, "head");
+style_options.domAPI = (styleDomAPI_default());
+style_options.insertStyleElement = (insertStyleElement_default());
+
+var style_update = injectStylesIntoStyleTag_default()(style/* default */.A, style_options);
+
+
+
+
+       /* harmony default export */ const css_style = (style/* default */.A && style/* default */.A.locals ? style/* default */.A.locals : undefined);
+
+;// ./src/utils/storage.js
+// function for retreive data 
+const getLocal = (key, defaultValue = null) => {
+  const data = localStorage.getItem(key, defaultValue);
+  return data ? JSON.parse(data) : defaultValue;
+};
+
+// function for set data
+const setLocal = (key, value) => {
+  localStorage.setItem(key, JSON.stringify(value));
+};
+
+;// ./src/state/store.js
+
+
+// variables for local storages
+const store = {
+  transactions: getLocal("transactions", []),
+  currentBalance: Number(getLocal("currentBalance", 0)),
+  expenseBalance: Number(getLocal("expenseBalance", 0)),
+  incomeBalance: Number(getLocal("incomeBalance", 0)),
+  userName: getLocal("userName", null),
+};
+
+function saveStore() {
+  setLocal("transactions", store.transactions);
+  setLocal("currentBalance", store.currentBalance);
+  setLocal("expenseBalance", store.expenseBalance);
+  setLocal("incomeBalance", store.incomeBalance);
+}
 
 ;// ./node_modules/@popperjs/core/lib/enums.js
 var enums_top = 'top';
@@ -7340,83 +7478,18 @@ defineJQueryPlugin(Toast);
 
 //# sourceMappingURL=bootstrap.esm.js.map
 
-// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/css/fonts.css
-var fonts = __webpack_require__(744);
-;// ./src/assets/css/fonts.css
+;// ./src/ui/domElements.js
+// ALL ELEMENT SELECTORS OF PROJECT
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var fonts_options = {};
-
-fonts_options.styleTagTransform = (styleTagTransform_default());
-fonts_options.setAttributes = (setAttributesWithoutAttributes_default());
-fonts_options.insert = insertBySelector_default().bind(null, "head");
-fonts_options.domAPI = (styleDomAPI_default());
-fonts_options.insertStyleElement = (insertStyleElement_default());
-
-var fonts_update = injectStylesIntoStyleTag_default()(fonts/* default */.A, fonts_options);
-
-
-
-
-       /* harmony default export */ const css_fonts = (fonts/* default */.A && fonts/* default */.A.locals ? fonts/* default */.A.locals : undefined);
-
-// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/css/style.css
-var style = __webpack_require__(325);
-;// ./src/assets/css/style.css
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var style_options = {};
-
-style_options.styleTagTransform = (styleTagTransform_default());
-style_options.setAttributes = (setAttributesWithoutAttributes_default());
-style_options.insert = insertBySelector_default().bind(null, "head");
-style_options.domAPI = (styleDomAPI_default());
-style_options.insertStyleElement = (insertStyleElement_default());
-
-var style_update = injectStylesIntoStyleTag_default()(style/* default */.A, style_options);
-
-
-
-
-       /* harmony default export */ const css_style = (style/* default */.A && style/* default */.A.locals ? style/* default */.A.locals : undefined);
-
-;// ./src/index.js
-
-
-
-
-
-// State
-let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
-let currentBalance = Number(localStorage.getItem("currentBalance")) || 0;
-let expenseBalance = Number(localStorage.getItem("expenseBalance")) || 0;
-let incomeBalance = Number(localStorage.getItem("incomeBalance")) || 0;
-
-let userName = null;
-
-// ELEMENT SELECTORS
-const transactionForm = document.getElementById("transaction-form");
-const introForm = document.getElementById("intro-form-wrapper");
-const currentBalanceElement = document.getElementById("current-balance");
+const homeElements = document.getElementById("home-wrapper");
+const plusElements = document.getElementById("plus-wrapper");
+const profileElements = document.getElementById("profile-wrapper");
+const breadcrumbTitleElements = document.getElementById("breadcrumb-title");
+const topBoxWrapper = document.getElementById("top-box-wrapper");
+const breadcrumbWrapper = document.getElementById("breadcrumb-wrapper");
+const greetingWrapper = document.getElementById("greetings-wrapper");
 const headerElement = document.getElementById("header");
+const currentBalanceElement = document.getElementById("current-balance");
 const incomeBalanceElement = document.getElementById("income-balance");
 const expenseBalanceElement = document.getElementById("expense-balance");
 const userNameElements = document.querySelectorAll(".user-name");
@@ -7425,20 +7498,17 @@ const dateElement = document.getElementById("date");
 const userAvatarElement = document.getElementById("user-avatar");
 const fullNameElement = document.getElementById("full-name");
 const userNameIDElement = document.getElementById("user-name-id");
-const homeElements = document.getElementById("home-wrapper");
-const plusElements = document.getElementById("plus-wrapper");
-const profileElements = document.getElementById("profile-wrapper");
-const breadcrumbTitleElements = document.getElementById("breadcrumb-title");
 const amountElement = document.getElementById("amount");
+const toastMsg = document.getElementById("toastMessage");
+const toastElement = document.getElementById("liveToast");
+const transactionForm = document.getElementById("transaction-form");
+const introForm = document.getElementById("intro-form-wrapper");
 const categorySelect = document.querySelector("select[name='category']");
 const expenseTypeRadios = document.querySelectorAll(
   'input[name="expense-type"]'
 );
 const greetingMessageElement = document.getElementById("greeting-message");
 const transactionsWrapper = document.getElementById("all-transactions");
-const topBoxWrapper = document.getElementById("top-box-wrapper");
-const breadcrumbWrapper = document.getElementById("breadcrumb-wrapper");
-const greetingWrapper = document.getElementById("greetings-wrapper");
 const introWrapper = document.getElementById("intro-wrapper");
 const addNewTransaction = document.getElementById("add-new-button");
 const homeButton = document.getElementById("home-button");
@@ -7447,10 +7517,23 @@ const backButton = document.getElementById("back-button");
 const deleteButton = document.getElementById("delete-button");
 const getStartedButton = document.getElementById("get-started-button");
 
-// UPDATE DOM AS PER STATE
-currentBalanceElement.textContent = currentBalance;
-incomeBalanceElement.textContent = incomeBalance;
-expenseBalanceElement.textContent = expenseBalance;
+
+
+;// ./src/utils/toast.js
+
+
+
+function showToast(message, type = "bg-success") {
+  toastMsg.textContent = message;
+  toastElement.classList.remove("bg-success","bg-danger");
+  toastElement.classList.add(type === "success" ? "bg-success" : "bg-danger");
+
+  const toast = new Toast(toastElement);
+  toast.show();
+}
+
+;// ./src/utils/date.js
+
 
 // DATE PICKER ELEMENT
 const today = new Date();
@@ -7458,86 +7541,69 @@ const year = today.getFullYear();
 const month = String(today.getMonth() + 1).padStart(2, "0");
 const day = String(today.getDate()).padStart(2, "0");
 
+const months = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
 dateElement.setAttribute("max", `${year}-${month}-${day}`);
 dateElement.setAttribute("min", `${year - 1}-${month}-${day}`);
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-// OPTIONS CHANGE AS PER RADIO CHECKED
-const expenseCategories = {
-  income: ["Salary", "Freelance", "Other"],
-  expense: [
-    "Food",
-    "Entertainment",
-    "Mobile Recharge",
-    "Travel Expense",
-    "Other",
-  ],
-};
 
-function updateCategoryOptions(type) {
-  categorySelect.innerHTML = '<option value="">Select Category</option>';
-  expenseCategories[type].forEach((option) => {
-    const newOption = document.createElement("option");
-    newOption.value = option.split(" ").join("-").toLowerCase();
-    newOption.textContent = option;
-    categorySelect.appendChild(newOption);
+;// ./src/features/delete.js
+function deleteAccount(){
+  localStorage.clear();
+  window.location.reload();
+}
+;// ./src/features/user.js
+
+
+
+
+function updateUsername(name) {
+  store.userName = name;
+  userNameElements.forEach((element) => {
+    element.textContent = name;
   });
+  const formattedID = `@${name.split(" ").join("_").toLowerCase()}`;
+  userNameIDElement.textContent = formattedID;
+  userAvatarElement.textContent = name[0].toUpperCase();
+  //   localStorage.setItem("userName", name);
+  //   localStorage.setItem("userID", formattedID);
+
+  setLocal("userName", name);
+  setLocal("userID", formattedID);
 }
 
-expenseTypeRadios.forEach((radio) => {
-  radio.addEventListener("change", function (e) {
-    const selectedCategory = e.target.value;
-    updateCategoryOptions(selectedCategory);
-  });
-});
+;// ./src/ui/balanceUI.js
 
-function validateDate() {
-  if (!dateElement.value) {
-    const dateError = document.createElement("p");
-    // dateElement.textContent = " ";
-    // dateError.textContent = "Enter Date";
-    // dateElement.after(dateError);
-    // document.body.style.border = "1px solid red";
-    showToast("Please select a date");
-    return false;
-  } else {
-    return true;
-  }
+
+
+function updateDOMBalance() {
+  currentBalanceElement.textContent = store.currentBalance;
+  incomeBalanceElement.textContent = store.incomeBalance;
+  expenseBalanceElement.textContent = store.expenseBalance;
 }
 
-function validateExpenseCategories(value) {
-  if (value === "") {
-    showToast("Please select a category");
-    return false;
-  } else {
-    return true;
-  }
-}
+;// ./src/ui/transactionsUI.js
 
-function updateBalance(type, amount) {
-  if (type === "income") {
-    currentBalance += amount;
-    incomeBalance += amount;
-  } else {
-    currentBalance -= amount;
-    expenseBalance += amount;
-  }
 
-  currentBalanceElement.textContent = currentBalance;
-  incomeBalanceElement.textContent = incomeBalance;
-  expenseBalanceElement.textContent = expenseBalance;
-
-  localStorage.setItem("currentBalance", currentBalance);
-  localStorage.setItem("incomeBalance", incomeBalance);
-  localStorage.setItem("expenseBalance", expenseBalance);
-}
 
 
 function updateDOMTransaction() {
-  const savedTransactions =
-    JSON.parse(localStorage.getItem("transactions")) || [];
+  const savedTransactions = store.transactions;
   let allTransactionHTML = "";
-  if (transactions.length) {
+  if (savedTransactions.length) {
     for (const data of savedTransactions) {
       allTransactionHTML += `<div class="trans-box d-flex justify-content-between mb-4">
                 <div class="left-box">
@@ -7570,82 +7636,76 @@ function updateDOMTransaction() {
   transactionsWrapper.innerHTML = allTransactionHTML;
 }
 
-function showToast(message, type = "danger") {
-  const toastMsg = document.getElementById("toastMessage");
-  const toastElement = document.getElementById("liveToast");
+;// ./src/features/transactions.js
 
-  toastMsg.textContent = message;
 
-  // change background based on type
-  toastElement.classList.remove("bg-danger", "bg-success");
-  toastElement.classList.add(type === "success" ? "bg-success" : "bg-danger");
 
-  const toast = new Toast(toastElement);
-  toast.show();
+
+function updateBalance(txn) {
+  const transactions = store.transactions;
+  transactions.push(txn);
+
+  if (txn.expenseType === "income") {
+    store.currentBalance += txn.amount;
+    store.incomeBalance += txn.amount;
+  } else {
+    store.currentBalance -= txn.amount;
+    store.expenseBalance += txn.amount;
+  }
+  
+  saveStore();
+  updateDOMTransaction();
+  updateDOMBalance();
 }
 
-transactionForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  const selectedCategoryValue = categorySelect.selectedOptions[0].value;
-  let amountValue = amountElement.value;
-  const descriptionValue = descriptionElement.value;
-  const dateValue = dateElement.value;
-  const radioExpenseElement = document.querySelector(
-    'input[name="expense-type"]:checked'
-  );
-  const radioExpenseValue = radioExpenseElement.value;
-  const date = new Date(dateValue);
-  console.log(date.getDate(), date.getFullYear(),months[date.getMonth()]);
-  if (
-    Number(amountValue) &&
-    validateDate() &&
-    validateExpenseCategories(selectedCategoryValue)
-  ) {
-    const dataObject = {
-      expenseType: radioExpenseValue,
-      category: selectedCategoryValue,
-      dateOfTransaction: `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`,
-      descriptionOfTransaction: descriptionValue,
-      amount: Number(amountValue),
-    };
+;// ./src/features/categoryChange.js
 
-    transactions.push(dataObject);
-    localStorage.setItem("transactions", JSON.stringify(transactions));
-    updateBalance(radioExpenseValue, Number(amountValue));
-    updateDOMTransaction();
-    transactionForm.reset();
-    showHomeScreen();
-  }
-});
+// OPTIONS CHANGE AS PER RADIO CHECKED
+const expenseCategories = {
+  income: ["Salary", "Freelance", "Other"],
+  expense: [
+    "Food",
+    "Entertainment",
+    "Mobile Recharge",
+    "Travel Expense",
+    "Other",
+  ],
+};
 
-getStartedButton.addEventListener("click", function (e) {
-  const currentElement = e.target;
-  currentElement.parentElement.nextElementSibling.style.display = "block";
-  currentElement.parentElement.remove();
-});
-
-introForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  userName = fullNameElement.value;
-  if (userName) {
-    introWrapper.remove();
-    showHomeScreen();
-    updateUsername(userName);
-  }else{
-    showToast("Please enter name");
-  }
-});
-
-function updateUsername(name) {
-  userNameElements.forEach((element) => {
-    element.textContent = name;
+function updateCategoryOptions(type) {
+  categorySelect.innerHTML = '<option value="">Select Category</option>';
+  expenseCategories[type].forEach((option) => {
+    const newOption = document.createElement("option");
+    newOption.value = option.split(" ").join("-").toLowerCase();
+    newOption.textContent = option;
+    categorySelect.appendChild(newOption);
   });
-  const formattedID = `@${name.split(" ").join("_").toLowerCase()}`;
-  userNameIDElement.textContent = formattedID;
-  userAvatarElement.textContent = name[0].toUpperCase();
-  localStorage.setItem("userName", name);
-  localStorage.setItem("userID", formattedID);
 }
+;// ./src/features/greeting.js
+
+
+
+function setGreetingMessage() {
+  const hours = today.getHours();
+
+  let message = "";
+
+  if (hours >= 5 && hours < 12) {
+    message = "Good Morning,";
+  } else if (hours >= 12 && hours < 17) {
+    message = "Good Afternoon,";
+  } else if (hours >= 17 && hours < 21) {
+    message = "Good Evening,";
+  } else {
+    message = "Good Night,";
+  }
+
+  greetingMessageElement.textContent = message;
+}
+;// ./src/ui/uiController.js
+
+
+
 
 function showHomeScreen() {
   topBoxWrapper.style.display = "block";
@@ -7655,6 +7715,7 @@ function showHomeScreen() {
   plusElements.style.display = "none";
   profileElements.style.display = "none";
   breadcrumbWrapper.style.display = "none";
+  setGreetingMessage();
 }
 
 function showProfileScreen() {
@@ -7675,46 +7736,129 @@ function showNewTransactionScreen() {
   breadcrumbTitleElements.textContent = "Add Income/Expense";
 }
 
-function setGreetingMessage() {
-  const hours = today.getHours();
-
-  let message = "";
-
-  if (hours >= 5 && hours < 12) {
-    message = "Good Morning,";
-  } else if (hours >= 12 && hours < 17) {
-    message = "Good Afternoon,";
-  } else if (hours >= 17 && hours < 21) {
-    message = "Good Evening,";
-  } else {
-    message = "Good Night,";
-  }
-
-  greetingMessageElement.textContent = message;
-}
-
-// function showScreen() {
-//   if (localStorage.getItem("userName")) {
-//     showHomeScreen();
-//   } else {
-//     showIntroScreen();
-//   }
-// }
-
 function showIntroScreen() {
   introWrapper.style.display = "block";
 }
 
-function deleteAccount(){
-  localStorage.clear();
-  window.location.reload();
+;// ./src/features/validate.js
+
+
+
+function validateDate() {
+  if (!dateElement.value) {
+    showToast("Please select a date");
+    return false;
+  } else {
+    return true;
+  }
 }
 
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
+function validateExpenseCategories(value) {
+  if (!value) {
+    showToast("Please select a category");
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validateAmount(amount) {
+  if (!amount || amount.trim() === "") {
+    showToast("Please enter an amount");
+    return false;
+  } else if (isNaN(amount)) {
+    const amount = Number(amount);
+    showToast("Amount must be a number");
+    return false;
+  } else if (amount <= 0) {
+    showToast("Amount must be greater than 0");
+    return false;
+  }
+
+  return true;
+}
+
+;// ./src/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+expenseTypeRadios.forEach((radio) => {
+  radio.addEventListener("change", function (e) {
+    const selectedCategory = e.target.value;
+    updateCategoryOptions(selectedCategory);
+  });
 });
 
-// showScreen();
+transactionForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const selectedCategoryValue = categorySelect.selectedOptions[0].value;
+  let amountValue = amountElement.value;
+  const descriptionValue = descriptionElement.value;
+  const dateValue = dateElement.value;
+  const radioExpenseElement = document.querySelector(
+    'input[name="expense-type"]:checked'
+  );
+  const radioExpenseValue = radioExpenseElement.value;
+  const date = new Date(dateValue);
+  const amountCheck = validateAmount(amountValue);
+  if (
+    validateAmount(amountValue) &&
+    validateDate() &&
+    validateExpenseCategories(selectedCategoryValue)
+  ) {
+    const dataObject = {
+      expenseType: radioExpenseValue,
+      category: selectedCategoryValue,
+      dateOfTransaction: `${
+        months[date.getMonth()]
+      } ${date.getDate()}, ${date.getFullYear()}`,
+      descriptionOfTransaction: descriptionValue,
+      amount: Number(amountValue),
+    };
+
+    updateBalance(dataObject);
+    updateDOMTransaction();
+    transactionForm.reset();
+    showHomeScreen();
+  }
+});
+
+getStartedButton.addEventListener("click", function (e) {
+  const currentElement = e.target;
+  currentElement.parentElement.nextElementSibling.style.display = "block";
+  currentElement.parentElement.remove();
+});
+
+introForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  store.userName = fullNameElement.value;
+  // console.log(store);
+  if (store.userName) {
+    introWrapper.remove();
+    showHomeScreen();
+    updateUsername(store.userName);
+  } else {
+    showToast("Please enter name");
+  }
+});
+
+// document.addEventListener('contextmenu', function(e) {
+//     e.preventDefault();
+// });
 
 // SWITCHES WITH PAGES
 userButton.addEventListener("click", showProfileScreen);
@@ -7725,24 +7869,25 @@ backButton.addEventListener("click", showHomeScreen);
 
 addNewTransaction.addEventListener("click", showNewTransactionScreen);
 
-deleteButton.addEventListener("click",deleteAccount);
+deleteButton.addEventListener("click", deleteAccount);
 
 // ONLOAD LOGICS
 window.addEventListener("DOMContentLoaded", () => {
-  const storedName = localStorage.getItem("userName");
-  const storedID = localStorage.getItem("userID");
+  const storedName = getLocal("userName");
+  const storedID = getLocal("userID");
 
   if (storedName && storedID) {
     introWrapper.remove();
     showHomeScreen();
     updateUsername(storedName);
     updateDOMTransaction();
+    
   } else {
     showIntroScreen();
   }
 });
 
-setGreetingMessage();
+updateDOMBalance();
 
 /******/ })()
 ;
